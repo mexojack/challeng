@@ -1,0 +1,22 @@
+
+let nonb =prompt ("Antre nomb ki soti nan 1 rive nan 10  kou vle fe tab miltiplikasyon pou li a :");
+        nonb=int(nonb);
+        let a=1;
+        if(int(nonb)>10){
+            while (int(nonb)<10){
+                let nonb= pronp("Nonb ou an siperye a 10, rantre yon lot:");
+
+            }
+        }
+                if (int(nonb)<10){
+                    while (a<=10){
+                        console.log (nonb,"x",a,"=",int(nonb)*a);
+                         a+=1;
+                    }
+                }
+                else{
+                    while (a<=10){
+                        console.log (nonb,"x",a,"=",int(nonb)*a);
+                        a+=1;
+                    }
+                }
